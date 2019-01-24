@@ -5,6 +5,5 @@ coverage/
 
 node_modules
 schematics/
-dist
 
 .DS_Store
