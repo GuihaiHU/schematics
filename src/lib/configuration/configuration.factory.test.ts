@@ -21,7 +21,7 @@ describe('Configuration Factory', () => {
     ).not.toBeUndefined();
     expect(JSON.parse(tree.readContent('/project/nest-cli.json'))).toEqual({
       language: 'ts',
-      collection: '@nestjs/schematics',
+      collection: '@hyman/schematics',
       sourceRoot: 'src',
     });
   });
@@ -37,7 +37,7 @@ describe('Configuration Factory', () => {
     ).not.toBeUndefined();
     expect(JSON.parse(tree.readContent('/project/nest-cli.json'))).toEqual({
       language: 'js',
-      collection: '@nestjs/schematics',
+      collection: '@hyman/schematics',
       sourceRoot: 'src',
     });
   });

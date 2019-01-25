@@ -1,5 +1,5 @@
 {
-  "name": "@nestjs/schematics",
+  "name": "@hyman/schematics",
   "version": "5.12.0",
   "description": "Nest - modern, fast, powerful node.js web framework (@schematics)",
   "main": "index.js",
@@ -15,17 +15,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nestjs/schematics.git"
+    "url": "git+https://github.com/GuihaiHU/schematics.git"
   },
   "contributors": [
+    "GuihaiHu",
     "ThomRick",
     "Kamil Mysliwiec"
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/nestjs/schematics/issues"
+    "url": "https://github.com/GuihaiHU/schematics/issues"
   },
-  "homepage": "https://github.com/nestjs/schematics#readme",
+  "homepage": "https://github.com/GuihaiHU/schematics#readme",
   "dependencies": {
     "@angular-devkit/core": "7.2.1",
     "@angular-devkit/schematics": "7.2.1",
@@ -62,5 +63,9 @@
     ],
     "sourceMap": true,
     "instrument": true
-  }
+  },
+  "directories": {
+    "test": "test"
+  },
+  "author": ""
 }
